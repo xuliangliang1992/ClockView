@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.qishiyun.customview.ClockView
+        android:id="@+id/time_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:hourPointerColor="#000"
+        app:hourPointerLength="30dp"
+        app:hourPointerSize="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:minPointerColor="#333"
+        app:minPointerLength="60dp"
+        app:minPointerSize="2dp"
+        app:secondPointerColor="#666"
+        app:secondPointerLength="90dp"
+        app:secondPointerSize="1dp"
+        app:borderColor="#f00"
+        app:borderWidth="2dp"
+        app:circleBackground="#fff"
+        app:centerPointColor="#f00"
+        app:centerPointType="circle"
+        app:centerPointRadius="5dp"
+        app:textColor="#ff0"
+        app:textSize="28sp"
+        app:isSecondGoSmooth="true"
+        app:maxScaleColor="#0f0"
+        app:minScaleColor="#00f"
+        app:midScaleColor="#999"
+        />
+
+</android.support.constraint.ConstraintLayout>
